@@ -1,6 +1,6 @@
 {
   "name": "fmtjs-att",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Abstract text tree for fmtjs.",
   "main": "index.js",
   "scripts": {
