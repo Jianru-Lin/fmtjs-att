@@ -10,6 +10,8 @@ function att(ast, options) {
 			return fillIndent(translate(ast))
 		case 'html':
 			return translate4html(ast)
+		default:
+			throw new Error('invalid mode: ' + options.mode)
 	}
 
 	function fill_default_value(options) {
