@@ -1,9 +1,22 @@
 var translate = require('./lib/translate')
 var fillIndent = require('./lib/fillIndent')
+var translate4html = require('./lib/translate4html')
 
 // 把 AST 转换成 ATT
 function att(ast, options) {
-	return fillIndent(translate(ast))
+	options = fill_default_value(options)
+	switch (options.mode) {
+		case 'text':
+			return fillIndent(translate(ast))
+		case 'html':
+			return translate4html(ast)
+	}
+
+	function fill_default_value(options) {
+		options = options || {}
+		options.mode = options.mode || 'text'
+		return options
+	}
 }
 
 module.exports = exports = att
