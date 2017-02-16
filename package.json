@@ -1,6 +1,6 @@
 {
     "name": "fmtjs-att",
-    "version": "5.2.0",
+    "version": "5.2.1",
     "description": "Abstract text tree for fmtjs.",
     "main": "index.js",
     "scripts": {
@@ -10,8 +10,8 @@
     "author": "Jianru Lin",
     "license": "MIT",
     "dependencies": {
-        "fmtjs-ast-walker": "5.2.0",
-        "fmtjs-att-pass": "5.2.0"
+        "fmtjs-ast-walker": "5.2.1",
+        "fmtjs-att-pass": "5.2.1"
     },
     "devDependencies": {
         "chai": "^3.5.0",
