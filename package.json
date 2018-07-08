@@ -10,7 +10,7 @@
     "author": "Jianru Lin",
     "license": "MIT",
     "dependencies": {
-        "fmtjs-ast-walker": "5.8.0",
+        "fmtjs-ast-walker": "5.9.0",
         "fmtjs-att-pass": "5.8.0"
     },
     "devDependencies": {
